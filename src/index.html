@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatting App</title>
+
+    <!-- style -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="user_container">
+            <label for="nickname">채팅명</label>
+            <input type="text" id="nickname">
+        </div>
+        <div class="display_container">
+            <ul class="chatting_list">
+            
+            </ul>
+        </div>
+        <div class="input_container">
+            <span>
+                <input type="text" class="chatting_input">
+                <button class="send_button"><i class="fa-solid fa-paper-plane"></i></button>
+            </span>
+        </div>
+    </div>
+    
+    <!-- script -->
+    <script src="/socket.io/socket.io.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.1/socket.io.js" integrity="sha512-ttqbKrGZiTtSLguBZ2xNvZrhUv02IO/TRq5U6TG5TK90wbaXWup5kIJ1A1tLzjOk5Mea/G4seVNrU+lwTLfAzA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <script src="https://kit.fontawesome.com/77f0be0ace.js" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
